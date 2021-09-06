@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": " Amazon version Tunisie",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akrem Hammami",
+  "license": "ISC",
+  "dependencies": {
+    "algoliasearch": "^3.26.0",
+    "async": "^3.2.1",
+    "aws-sdk": "^2.981.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-rate-limit": "^5.3.0",
+    "faker": "^4.1.0",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.13.8",
+    "mongoose-algolia": "^1.7.1",
+    "mongoose-deep-populate": "^3.1.1",
+    "morgan": "^1.9.0",
+    "multer": "^1.4.3",
+    "multer-s3": "^2.7.0",
+    "stripe": "^5.8.0"
+  }
+}
